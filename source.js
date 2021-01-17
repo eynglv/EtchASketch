@@ -7,9 +7,9 @@ function setDefaultGrid() {
     createGrid();
   }
 
-function clearScreen() {
+function clearScreen(gridSize) {
     container.innerHTML = "";
-    setDefaultGrid();
+    setDefaultGrid(gridSize);
 }
 
 buttons.addEventListener('click', clearScreen());
@@ -29,4 +29,12 @@ function createGrid() {
 
 function changeColor(e){
     e.target.style.backgroundColor = "rgb(171, 138, 138)";
+}
+
+function changeGridSize(e){
+    gridSize = prompt("Please choose a grid size less than 100.")
+    if (gridSize>100){
+        gridSize = 100;
+    }
+    clearScreen(gridSize);
 }
