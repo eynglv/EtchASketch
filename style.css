@@ -1,0 +1,47 @@
+html{
+    background-color: rgb(140, 125, 150);
+}
+
+body{
+    font-family: 'Snell Roundhand', cursive; 
+    padding: 50px 0;
+}
+
+.heading{
+    text-align:center;
+    color: rgb(92, 92, 92);
+    font-size:25px;
+}
+
+.buttons{
+    text-align: center;
+}
+.clearScreen{
+    background-color: rgb(134, 163, 137);
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 15px;
+}
+
+.clearScreen:hover{
+    background-color: rgb(171, 184, 172);
+}
+
+.grid-container{
+    background-color: rgb(92, 92, 92);
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border-style: ridge;
+    border-width: 15px;
+}
+
+.grid-item{
+    display: flex; 
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.hover{
+    background-color: rgb(201, 163, 157);
+}
