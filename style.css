@@ -16,10 +16,11 @@ body{
 .buttons{
     text-align: center;
 }
-.clearScreen{
+.button{
     background-color: rgb(134, 163, 137);
     font-family: 'Snell Roundhand', cursive;
     font-size: 15px;
+    color: rgb(96, 77, 110);
 }
 
 .clearScreen:hover{
